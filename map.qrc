@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/new/map">
         <file>gmap.html</file>
+        <file>image/marker.png</file>
     </qresource>
 </RCC>

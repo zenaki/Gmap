@@ -28,5 +28,6 @@ void MainWindow::setMap()
 
         // display contents
         centralWidget->webView->setHtml(output);
+        centralWidget->webView->page()->mainFrame()->evaluateJavaScript("initMarker();");
     }
 }

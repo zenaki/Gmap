@@ -92,14 +92,14 @@
            <item>
             <widget class="QPushButton" name="clearButton">
              <property name="text">
-              <string>Clear</string>
+              <string>Clear Form</string>
              </property>
             </widget>
            </item>
            <item>
             <widget class="QPushButton" name="previewButton">
              <property name="text">
-              <string>Preview</string>
+              <string>Set</string>
              </property>
             </widget>
            </item>
@@ -115,8 +115,8 @@
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
-        <widget class="QWebView" name="webView">
-         <property name="url">
+        <widget class="QWebView" name="webView" native="true">
+         <property name="url" stdset="0">
           <url>
            <string>about:blank</string>
           </url>
